@@ -1,0 +1,204 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3a86ff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+header p {
+    margin: 10px 0 0 0;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3a86ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #1c5bc2;
+}
+
+.book-list {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.book {
+    margin-bottom: 30px;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.rent-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3a86ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.rent-button:hover {
+    background-color: #1c5bc2;
+}
+
+.cta {
+    background-color: #3a86ff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial-author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subscribe {
+    background-color: #3a86ff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-form input {
+    width: 250px;
+}
+
+.subscribe-form button {
+    background-color: #1c5bc2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #102e5b;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #3a86ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1c5bc2;
+}
+
+
